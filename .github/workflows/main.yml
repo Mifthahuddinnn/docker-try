@@ -1,8 +1,7 @@
 name: running test, build image, push registry, deploy
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 jobs:
   running-test:
     runs-on: ubuntu-latest
